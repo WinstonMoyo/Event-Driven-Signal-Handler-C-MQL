@@ -27,17 +27,17 @@ Technologies Used
 
 The application leverages the following technologies:
 
-UWP (Universal Windows Platform):
+UWP (Universal Windows Platform) [C#]:
 
 The front end is developed using UWP, providing a responsive and visually appealing interface for Windows devices.
 Features include input fields for group chat names, buttons for starting/stopping the listener, and configuration settings for trading parameters.
 
-.NET Core ASP API:
+.NET Core ASP API [C#]:
 
 The backend is powered by a .NET Core ASP API, which handles HTTP requests for sending and retrieving financial signals.
 The API consists of multiple endpoints, including a POST endpoint for receiving signals and a GET endpoint for fetching stored JSON data.
 
-MQL5 (MetaQuotes Language 5):
+MQL5 (MetaQuotes Language 5) [MQL5]:
 
 MQL5 scripts execute trading operations based on signals processed from the API.
 The scripts manage the logic for trade execution, risk management, and position monitoring, ensuring that trades are executed in a timely and efficient manner.
